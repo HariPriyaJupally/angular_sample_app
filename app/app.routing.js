@@ -13,5 +13,9 @@ angular.module("myApp").config(function ($routeProvider) {
     .when("/pmbok", {
         templateUrl : "app/components/pmbok/pmbokmatrix.html",
         controller : "matrixctrl"
+    })
+    .when("/AboutMe", {
+        templateUrl : "app/components/AboutMe/index.html",
+        controller : "Student"
     });
 });
